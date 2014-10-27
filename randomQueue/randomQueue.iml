@@ -7,6 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="algs4" level="application" />
+    <orderEntry type="library" exported="" name="stdlib" level="application" />
   </component>
 </module>
 

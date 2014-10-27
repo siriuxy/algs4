@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="PercolationLab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation2.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Archivex.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation4.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/percolation.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation6(latest but buggy).zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation2.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/PercolationLab/Percolation2.3.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
