@@ -21,6 +21,8 @@ public class Brute {
             int y = in.readInt();
             points[i] = new Point(x, y);
         }
+        StdDraw.setXscale(0, 32768);
+        StdDraw.setYscale(0, 32768);
 
         for (int i=0; i<N; i++){
             for (int j=i+1;j<N;j++){
@@ -34,6 +36,15 @@ public class Brute {
                                  +points[k].toString()+" -> "
                                          +points[l].toString()
                                  );
+                            points[i].draw();
+                            points[j].draw();
+                            points[k].draw();
+                            points[l].draw();
+                            points[i].drawTo(points[j]);
+                            points[i].drawTo(points[k]);
+                            points[i].drawTo(points[l]);
+
+
                         }
                     }
                 }

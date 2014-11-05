@@ -40,7 +40,7 @@ public class Point implements Comparable<Point> {
         StdDraw.point(x, y);
     }
 
-    // draw line between this point and that point to standard drawing
+    // draw line sortbetween this point and that point to standard drawing
     public void drawTo(Point that) {
         /* DO NOT MODIFY */
         StdDraw.line(this.x, this.y, that.x, that.y);
@@ -49,6 +49,7 @@ public class Point implements Comparable<Point> {
     // slope between this point and that point
     public double slopeTo(Point that) {
         /* YOUR CODE HERE */
+        if (this.y==that.y && this.y==that.y) return Double.NEGATIVE_INFINITY;
         if (this.y==that.y) return +0.0;
         if (this.x==that.x) return Double.POSITIVE_INFINITY;
         return (this.x-that.x)*1.0/(this.y-that.y); //implicit cast to double
